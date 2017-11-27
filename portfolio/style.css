@@ -1,0 +1,75 @@
+/* Import Fonts from Google */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700'); */
+/*
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+font-family: 'Roboto Condensed', Impact, sans-serif;
+*/
+
+/* Global Styles */
+/* Set the look and feel (fonts, colors, background, etc.) settings for your site here. */
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #666666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', Impact, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    z-index: 99999;
+    box-sizing: border-box;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin-top: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+header nav ul li a {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+header nav ul li a:hover {
+    color: yellow;
+}
+
+/* Home Page Styles */
+
+
+/* Surfboards Page */
+
+
+/* Prefooter + Footer */
+
+
+/* Responsive Styles */
+
+@media screen and (max-width:599px) {
+
+}
