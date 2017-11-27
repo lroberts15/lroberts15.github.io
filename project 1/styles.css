@@ -1,0 +1,144 @@
+
+body {
+    font-family: Palatino, Georgia, serif;
+    font-size: 16px;
+    line-height: .1em;
+    text-align: center;
+    background-color: #d7ccdf;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    line-height: 1em; 
+    color: #14161f;
+    font-size: 110%;
+  }
+
+
+h1{
+ font-family: 'Dancing Script', cursive;
+  font-size: 200%;  
+  color: 	#757ca3;
+  line-height: 1em; 
+}
+
+
+h2 {
+     font-family: 'Dancing Script', cursive;
+     float: inherit;
+     font-size: 560%;  
+     text-align: center;
+     line-height: .1em; 
+     letter-spacing: 1px;
+     font-kerning: normal;
+     font-weight: 4000;
+     padding:.1px;
+}
+
+h3{
+  font-family: 'Sacramento', cursive;
+  font-size: 250%; 
+  line-height: .1em;
+  color: #757ca3;
+  padding:none;
+}
+
+
+h4{
+  font-size: 150%;
+}
+
+h5{
+  font-family: 'Dancing Script', cursive;
+  font-size: 150%;
+  color: #2e385C;
+  text-align: center;
+}
+
+h6{
+  text-align:center justify; 
+  font-size: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  position:inherit;
+  box-sizing:border-box;
+  line-height: 1px;  
+
+}
+
+    
+/* Layout */
+
+ .header{
+    font-family: Palatino, Georgia, serif;
+    font-size: 16px;
+    line-height: 2.4;
+    margin:auto;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    width: 100%;
+    background-color: #14161f;
+    box-sizing: border-box;
+    text-align: center;
+    font-style: oblique;
+    font-family:cursive;
+    font-feature-settings: normal;
+     
+  
+    clear:both; 
+    overflow: auto; 
+     
+     --offset: 2px;
+	--border-size: 2px;
+     
+    display: block;
+	position: relative;
+	border: 0;
+	text-transform:inherit;     
+}  
+
+
+.content {
+    margin: 50px auto;
+
+    background-color:#b6a5be;
+    width: 100%;
+    height:50%;
+    max-width: 400px;
+    border-radius: 9px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    letter-spacing: normal;
+    
+}
+
+
+.location {
+    margin: auto;
+    padding-top: none;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align:left;
+    position:inherit;
+}
+
+.intro {
+    text-align:justify; 
+    padding-top: 5px;
+    box-sizing:border-box;   
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: baseline;
+  width:60%;
+}
+
+.reception {
+    height: 10%;
+    width: 10%;
+}
+
+
