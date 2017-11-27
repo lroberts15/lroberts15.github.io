@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<header>
+      <div class="header">
+       
+      
+    </div>
+  <nav>
+       <h1>Walt Disney Parks Blog</h1>
+    <ul>
+      <li><a href= "index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li> 
+    </ul>
+  </nav>
+</header>
+    
+    
+  <style>
+    
+   /**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 2140px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+
+
+
+
+/**********************************
+PAGE: HOME
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 75%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7
+}
+
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+      
+.image-hover-text-container 
+{
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  transition: all 0.2s linear; 
+      }
+      
+.image-hover-image 
+{
+ display: block;
+}
+/* Make the image round */
+.image-hover-image img
+{
+  border-radius: 0%;
+  width: 400px;
+}
+
+image-hover-text:hover 
+{
+  opacity: 1;
+}
+
+.image-hover-text-bubble 
+{
+  position: relative;
+  box-sizing: border-box;
+  top: 0; left: 0; right: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(218, 211, 211, 0.9);
+  border-radius: 0%;
+  margin: 0 auto;
+  padding: 30% 0px;
+  overflow: hidden;
+  font-size: 17px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.image-hover-text .image-hover-text-title
+{
+  font-size: 25px;
+  display: block;
+}
+      
+      
+  /* DEMO STYLES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+  outline: 0;
+}
+
+a {
+  color: currentColor;
+  transition: .2s ease-in-out;
+}
+
+h1, h2, h3, h4 {
+  margin: .3em 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+
+img {
+  vertical-align: middle;
+  height: auto;
+  width: 100%;
+}    
+      
+
+/* header */
+header {
+  background: silver;
+  border-color: black;
+}
+
+/* nav background on mobile */
+nav {
+  background: black;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: silver;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: silver;
+}
+
+
+
+/**********************************
+MEDIA QUERIES
+***********************************/
+
+@media screen and (min-width: 480px) {
+  
+  /**********************************
+  TWO COLUMN LAYOUT
+  ***********************************/
+  
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  
+
+  
+  /**********************************
+  PAGE: 
+  ***********************************/
+  
+  #gallery li {
+    width: 28.3333%;
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+  
+  /**********************************
+  PAGE: ABOUT
+  ***********************************/
+  
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+  
+}
+
+@media screen and (min-width: 660px) {
+
+  /**********************************
+  HEADER
+  ***********************************/
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 5px solid #599a68;
+    margin-bottom: 60px;
+  }
+
+  
+}
+
+  </style>  
+    
+    
+    
+    
+
+<div id="wrapper">
+  <section>
+    <ul id="gallery">
+      <li>
+           <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/akjd023.jpg" alt="">
+          <p>Kick off the Holiday Shopping Season with the Gift of Disney.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/gchcl48959821.jpg" alt="">
+          <p>A Closer Look: Great Hall Lobby at Disney’s Grand Californian Hotel & Spa at the Disneyland Resort</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/vaa02394802392fi.jpg" alt="">
+          <p>Victoria & Albert’s Voted #2 Restaurant in U.S. by TripAdvisor for Second Year.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/bbfobr478671.jpg" alt="">
+          <p>Best Bites: October 2017.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/sdkh879868.jpg" alt="">
+          <p>Disney Resorts Honored in 2017 Condé Nast Traveler Awards</p>
+        </a>
+      </li>
+        <li>
+        <a href="#">
+     <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/STSWS2391.jpg" alt="">
+          <p>New Adventure from Star Wars: The Last Jedi Coming to Star Tours This Fall</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/inaar579678.jpg" alt="">
+          <p>Enter Marvel’s Inhumans at Aulani, a Disney Resort & Spa Sweepstakes</p>
+        </a>
+      </li>
+        <li>
+        <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/Honey1.jpg" alt="">
+          <p>Disney Chefs Compete for Orlando’s Signature Dish</p>
+        </a>
+      </li>
+        <li>
+            <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/jnqd981.jpg" alt="">
+          <p>This Week in Disney Parks Photos: New Mouse Ears Sparkle at Disney Parks</p>
+        </a>
+      </li>
+        <li>
+            <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/MK17-Featured.jpg" alt="">
+          <p>Disney PhotoPass Photographers Stay on the Move to Capture Your Disney Experience</p>
+        </a>
+      </li>
+        <li>
+             <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/featuredbeauty.jpg" alt="">
+          <p>Be our Guest in ‘Beauty and the Beast’ Aboard the Disney Dream</p>
+        </a>
+      </li>
+        <li>
+             <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/dgb89693aa.jpg" alt="">
+          <p>Disney Parks Blog Weekly Recap</p>
+        </a>
+      </li>
+        <li>
+            <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/htdlr47857831.jpg" alt="">
+          <p>Disney Parks After Dark: Mickey’s Halloween Party at Disneyland Park</p>
+        </a>
+      </li>
+        <li> 
+             <a href="#">
+          <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2017/10/fig23948723948fi.jpg" alt="">
+          <p>One Little Spark of Costume Inspiration for runDisney Wine & Dine Half Marathon Weekend</p>
+        </a>
+      </li>
+        <li>
+           
+           
+  </section>
+  <footer>
+    
+  </footer>
+</div>
