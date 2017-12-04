@@ -288,8 +288,35 @@ footer address  {
 }
 
 
+/* Gallery Page Styles */
 
 
+
+#photos img {
+  width: 20%;
+  float: left;
+  display: block;
+  margin: 140px 10px 10px 70px;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+
+
+
+#overlay img {
+  margin: 10% auto 0;
+  width: 700px;
+  border-radius: 5px;
+}
+
+#photos {
+  width: 100%;
+}
+
+#photo-gallery {
+  width: 100%;
+}
 
 
 
